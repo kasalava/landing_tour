@@ -17,6 +17,21 @@ h1 {
     margin-bottom: 80px;
 }
 
+.image {
+    margin-bottom: 60px;
+
+}
+
+.text {
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.text_wrapper{
+display: flex;
+}
+
 b {
     font-weight: 600;  
 }
