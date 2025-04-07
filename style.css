@@ -8,6 +8,7 @@ width: 1168px;
 margin-left: auto;
 margin-right: auto;
 padding-top: 178px;
+padding-bottom: 80px;
 }
 
 .title {
@@ -17,6 +18,11 @@ padding-top: 178px;
     margin: 0 0 80px 0;
     line-height: 100%;
     letter-spacing: 0%;
+    width: 1122;
+height: 70;
+top: 178px;
+left: 136px;
+
 
 }
 
@@ -32,6 +38,7 @@ border-radius: 20px;
 .text_wrapper{
     display: flex;
     gap: 32px;
+    margin-bottom: 80px;
 }
 
 .text {
@@ -51,7 +58,17 @@ letter-spacing: 0%;
 
 .grey_block{
     background-color: #F1F1F1;
-    ;
+    width: 1150;
+height: 322;
+top: 941px;
+left: 136px;
+border-radius: 20px;
+gap: 10px;
+padding-top: 25px;
+padding-right: 50px;
+padding-bottom: 25px;
+padding-left: 50px;
+
 }
 
 b {
