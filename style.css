@@ -4,32 +4,54 @@ body {
 }
 
 .container{
-width: 720px;
+width: 1168px;
 margin-left: auto;
 margin-right: auto;
 padding-top: 178px;
 }
 
-h1 {
+.title {
     font-weight: 600;
     font-size: 60px;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin: 0 0 80px 0;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 
 .image {
     margin-bottom: 60px;
+    width: 1168;
+height: 353;
+top: 328px;
+left: 136px;
+border-radius: 20px;
+}
 
+.text_wrapper{
+    display: flex;
+    gap: 32px;
 }
 
 .text {
 font-size: 22px;
 font-weight: 400;
 line-height: 30px;
+margin: 0;
+width: 568px;
 }
 
-.text_wrapper{
-display: flex;
+.subtitle{
+font-weight: 600;
+font-size: 46px;
+line-height: 54px;
+letter-spacing: 0%;
+}
+
+.grey_block{
+    background-color: #F1F1F1;
+    ;
 }
 
 b {
