@@ -1,76 +1,82 @@
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
-.container{
-width: 1168px;
-margin-left: auto;
-margin-right: auto;
-padding-top: 178px;
-padding-bottom: 80px;
+.container {
+  width: 1168px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 178px;
+  padding-bottom: 80px;
 }
 
 .title {
-    font-weight: 600;
-    font-size: 60px;
-    margin-top: 0;
-    margin: 0 0 80px 0;
-    line-height: 100%;
-    letter-spacing: 0%;
-    width: 1122;
-height: 70;
-top: 178px;
-left: 136px;
-
-
+  font-weight: 600;
+  font-size: 60px;
+  margin-top: 0;
+  margin: 0 0 80px 0;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 1122;
+  height: 70;
+  top: 178px;
+  left: 136px;
 }
 
 .image {
-    margin-bottom: 60px;
-    width: 1168;
-height: 353;
-top: 328px;
-left: 136px;
-border-radius: 20px;
+  margin-bottom: 60px;
+  width: 1168;
+  height: 353;
+  top: 328px;
+  left: 136px;
+  border-radius: 20px;
 }
 
-.text_wrapper{
-    display: flex;
-    gap: 32px;
-    margin-bottom: 80px;
+.text_wrapper {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 80px;
 }
 
 .text {
-font-size: 22px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  width: 568px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 54px;
+  letter-spacing: 0%;
+}
+
+.grey_block {
+  background-color: #f1f1f1;
+  width: 1150;
+  height: 322;
+  top: 941px;
+  left: 136px;
+  border-radius: 20px;
+  gap: 10px;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+}
+
+.form-fiels {
+
 font-weight: 400;
+font-size: 18px;
 line-height: 30px;
-margin: 0;
-width: 568px;
-}
-
-.subtitle{
-font-weight: 600;
-font-size: 46px;
-line-height: 54px;
-letter-spacing: 0%;
-}
-
-.grey_block{
-    background-color: #F1F1F1;
-    width: 1150;
-height: 322;
-top: 941px;
-left: 136px;
-border-radius: 20px;
-gap: 10px;
-padding-top: 25px;
-padding-right: 50px;
-padding-bottom: 25px;
-padding-left: 50px;
+padding: 11px 24px;
 
 }
 
 b {
-    font-weight: 600;  
+  font-weight: 600;
 }
