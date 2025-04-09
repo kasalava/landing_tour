@@ -68,12 +68,13 @@ body {
   padding-left: 50px;
 }
 
-.form-fiels {
+.form-field {
 
 font-weight: 400;
 font-size: 18px;
 line-height: 30px;
 padding: 11px 24px;
+border-radius: 10px;
 
 }
 
