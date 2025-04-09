@@ -66,26 +66,28 @@ body {
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
+  display: flex;
 }
 
 .form-field {
-
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-padding: 11px 24px;
-border-radius: 10px;
-border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 11px 24px;
+  border-radius: 10px;
+  border: none;
 }
 
-.form-button{
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-color: #FFFFFF;
-background-color: #3D3BFF;
-;
-
+.form-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #3d3bff;
+  padding: 11px 54px;
+  border-radius: 10px;
+  border: none;
 }
 
 b {
