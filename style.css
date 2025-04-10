@@ -72,6 +72,7 @@ body {
   padding-bottom: 25px;
   padding-left: 50px;
   display: flex;
+  justify-content: space-between;
 }
 .form {
     width: 416px;
