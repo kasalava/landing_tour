@@ -8,20 +8,20 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-      $(function(){
-         $(.form.button).on('click', function()){
-          let name = $(['name="name"]').val();           //получаем значение для элемента, которое прописано в этом поле
-          let name = $(['name="tel"]').val();
-          let name = $(['name="email"]').val();
-          let data = {//создаем объект, чтоб положить в него данные (ключ-значение)
-           'name': name,
-           'tel': tel,
-           'email': email,
-          } 
-          alert ("yes")
-          return false;
-         });
-      });
+            $(function(){
+               $(.form.button).on('click', function(){
+                let data = {
+
+      'name': $(`[name="name"]`).val(),
+      'phone': $(`[name="phone"]`).val(),
+      'email': $(`[name="email"]`).val(),
+      }
+
+                }
+                alert ("yes")
+                return false;
+               });
+            });
     </script>
 
     <meta charset="UTF-8" />
@@ -57,8 +57,18 @@
         </h2>
         <form class="form">
           <input class="form-field" name="name" type="text" placeholder="Имя" />
-          <input class="form-field" name="tel" type="tel" placeholder="Телефон"/>
-          <input class="form-field" name="email" type="email" placeholder="Email"/>
+          <input
+            class="form-field"
+            name="tel"
+            type="tel"
+            placeholder="Телефон"
+          />
+          <input
+            class="form-field"
+            name="email"
+            type="email"
+            placeholder="Email"
+          />
           <button class="form-button" type="submit">Записаться</button>
         </form>
       </div>
