@@ -9,17 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
             $(function(){
-               $(.form.button).on('click', function(){
+               $('.form-button').on('click', function(){
                 let data = {
-
-      'name': $(`[name="name"]`).val(),
-      'phone': $(`[name="phone"]`).val(),
-      'email': $(`[name="email"]`).val(),
+      'name': $('[name="name"]').val(),
+      'tel': $('[name="tel"]').val(),
+      'email': $('[name="email"]').val(),
       }
-
-                }
-                alert ("yes")
-                return false;
+      console.log(data);
+      return false;
                });
             });
     </script>
@@ -57,17 +54,8 @@
         </h2>
         <form class="form">
           <input class="form-field" name="name" type="text" placeholder="Имя" />
-          <input
-            class="form-field"
-            name="tel"
-            type="tel"
-            placeholder="Телефон"
-          />
-          <input
-            class="form-field"
-            name="email"
-            type="email"
-            placeholder="Email"
+          <input class="form-field" name="tel" type="tel" placeholder="tel"/>
+          <input class="form-field" name="email" type="email" placeholder="email"
           />
           <button class="form-button" type="submit">Записаться</button>
         </form>
