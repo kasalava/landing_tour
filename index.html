@@ -15,7 +15,8 @@
       'tel': $('[name="tel"]').val(),
       'email': $('[name="email"]').val(),
       }
-      console.log(data);
+      $.post('api.php', data, function())//отправляем данные на сервер
+      
       return false;
                });
             });
