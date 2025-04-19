@@ -14,11 +14,20 @@
       'name': $('[name="name"]').val(),
       'tel': $('[name="tel"]').val(),
       'email': $('[name="email"]').val(),
+      };
+      $.post('api.php', data, function(response){//отправляем данные на сервер
+      if response==1){
+        'name': $('[name="name"]').val(''),
+      'tel': $('[tel="tel"]').val(''),
+      'email': $('[email="email"]').val(''),
+      alert('ваша заявка принята'):
+      }else{
+        alert('xnj то поло не так')
       }
-      $.post('api.php', data, function(response))//отправляем данные на сервер
-      alert(response)
-      return false;
-               });
+
+      }
+                     });
+              return false;
             });
     </script>
 
